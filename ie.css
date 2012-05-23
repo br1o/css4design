@@ -1,0 +1,39 @@
+/* -------------------------------------------------------------- 
+   
+   Boilerplate ie.css
+   * Contains hacks for Internet Explorer < IE7
+   
+-------------------------------------------------------------- */
+
+/* Make sure the layout is centered in IE5 */
+body { text-align: center; }
+#container { text-align: left; }
+
+/* Keeps IE6 from cutting pulled/pushed images */
+ul, ol { position: relative; }
+
+/* Fixes incorrect styling of legend in IE6 fieldsets. */
+legend { margin-bottom: 1.4em; }
+
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ol { margin-left: 2em; }
+
+/* Fixes IE6 missing wrapping of code elements. */
+* html p code { *white-space: normal; }
+
+/* probleme padding sur les liens #prev-next */
+#prev-next p a { 
+	padding: 0 0 0.5em 0.5em;
+}
+
+* html #sidebars { margin-right: -3px; }
+
+* html #menu { z-index: 100; }
+
+.subscribe-to-comments, .wp-caption {
+    zoom: 1;
+}
+* html .wp-caption {  padding: 0; }
+.roundies {
+    
+}
